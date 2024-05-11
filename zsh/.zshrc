@@ -1,3 +1,7 @@
+### 환경변수 셋팅 ###
+DEV_ROOT=$HOME/dev-environment
+ZSH=$DEV_ROOT/zsh
+export PATH="$DEV_ROOT/bin:$PATH"
 
 ### ZSH History Setup ###
 HISTFILE=$ZSH/.zsh_history
